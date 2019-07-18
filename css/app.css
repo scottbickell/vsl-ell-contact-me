@@ -170,13 +170,6 @@ table.float-center {
   float: none;
   text-align: center; }
 
-@media only screen and (max-width: 616px) {
-  table.body table.container .show-for-large {
-    display: none !important;
-    width: 0;
-    mso-hide: all;
-    overflow: hidden; } }
-
 body,
 table.body,
 h1,
@@ -263,19 +256,8 @@ table.button {
 
 table.button:hover table tr td a,
 table.button:active table tr td a,
-table.button table tr td a:visited,
-table.button.tiny:hover table tr td a,
-table.button.tiny:active table tr td a,
-table.button.tiny table tr td a:visited {
+table.button table tr td a:visited {
   color: #fefefe; }
-
-table.button.tiny table td,
-table.button.tiny table a {
-  padding: 4px 8px 4px 8px; }
-
-table.button.tiny table a {
-  font-size: 10px;
-  font-weight: normal; }
 
 table.button.expanded {
   width: 100% !important; }
